@@ -68,8 +68,12 @@ keyboard.keymap = [
             'https://youtube.com',
             Tap(KC.ENTER)
         ),
-        # Opens GitHub
+        # Sends Ctrl+T, then opens GitHub
         KC.MACRO(
+            Press(KC.LCTRL),
+            Tap(KC.T),
+            Release(KC.LCTRL),
+            KC.MACRO_SLEEP_MS(200),
             Press(KC.LGUI),
             Tap(KC.R),
             Release(KC.LGUI),
