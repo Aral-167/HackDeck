@@ -69,7 +69,16 @@ keyboard.keymap = [
             'https://github.com',
             Tap(KC.ENTER)
         ),
-        KC.D, KC.E, KC.F,
+        # Opens ChatGPT
+        KC.MACRO(
+            Press(KC.LGUI),
+            Tap(KC.R),
+            Release(KC.LGUI),
+            KC.MACRO_SLEEP_MS(200),
+            'https://chat.openai.com',
+            Tap(KC.ENTER)
+        ),
+        KC.E, KC.F,
         KC.RGB_TOG, KC.RGB_HUI, KC.RGB_SAI,  # Toggle, Hue+, Saturation+
     ]
 ]
