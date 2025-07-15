@@ -42,12 +42,8 @@ keyboard.matrix = KeysScanner(
 # And here for macros: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/macros.md
 keyboard.keymap = [
     [
-        # Sends Ctrl+T, then opens Google
+        # Copies selected text, then opens Google
         KC.MACRO(
-            Press(KC.LCTRL),
-            Tap(KC.T),
-            Release(KC.LCTRL),
-            KC.MACRO_SLEEP_MS(200),
             Press(KC.LGUI),
             Tap(KC.R),
             Release(KC.LGUI),
@@ -55,12 +51,8 @@ keyboard.keymap = [
             'https://google.com',
             Tap(KC.ENTER)
         ),
-        # Sends Ctrl+T, then opens YouTube
+        # Copies selected text, then opens YouTube
         KC.MACRO(
-            Press(KC.LCTRL),
-            Tap(KC.T),
-            Release(KC.LCTRL),
-            KC.MACRO_SLEEP_MS(200),
             Press(KC.LGUI),
             Tap(KC.R),
             Release(KC.LGUI),
@@ -68,12 +60,8 @@ keyboard.keymap = [
             'https://youtube.com',
             Tap(KC.ENTER)
         ),
-        # Sends Ctrl+T, then opens GitHub
+        # Opens GitHub
         KC.MACRO(
-            Press(KC.LCTRL),
-            Tap(KC.T),
-            Release(KC.LCTRL),
-            KC.MACRO_SLEEP_MS(200),
             Press(KC.LGUI),
             Tap(KC.R),
             Release(KC.LGUI),
