@@ -8,8 +8,19 @@ Customizable: add your own shortcuts and commands.
 Cross-platform support (Windows, macOS, Linux).
 Lightweight and easy to use.
 
+## Bill of Materials
+1. 9x Cherry MX Switches
+2. 1x XIAO RP2040
+3. 1x Case (2 3D printed parts)
+4. 1x SK6812 MINI Leds
+5. 9x Blank DSA Keycaps
+6. 4x M3x16 Bolt
+7. 4x M3 Heatset
+      
+
 ## PCB
 ![Schema](images/schema.png)
 ![PCB](images/pcb.png)
 ## Case
 ![Case](images/case.png)
+
