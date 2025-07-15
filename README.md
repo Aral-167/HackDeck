@@ -9,6 +9,7 @@ Cross-platform support (Windows, macOS, Linux).
 Lightweight and easy to use.
 
 ## PCB
-
-
+![Schema](images/schema.png)
+![PCB](images/pcb.png)
 ## Case
+![Case](images/case.png)
