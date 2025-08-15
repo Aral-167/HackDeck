@@ -26,9 +26,9 @@ keyboard.extensions.append(rgb)
 # Define your pins here for 9 switches!
 # Using D0-D5 and D7-D9, leaving D6 for the LED
 PINS = [
-    board.D0, board.D1, board.D2,
-    board.D3, board.D4, board.D5,
-    board.D7, board.D8, board.D9,
+    board.D7, board.D10, board.D4,
+    board.D8, board.D9, board.D5,
+    board.D1, board.D2, board.D3,
 ]
 
 # Tell kmk we are not using a key matrix
